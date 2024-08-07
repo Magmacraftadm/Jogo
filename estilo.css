@@ -1,0 +1,50 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.background {
+    /* URL da sua imagem de fundo */
+    background-image: url('logo_fundo.png'); /* Atualizado para corresponder à estrutura do projeto */
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mc-button {
+    font-size: 2em;
+    font-family: 'Minecraft', sans-serif; /* Fonte similar ao Minecraft */
+    color: white;
+    background-color: #4CAF50; /* Cor de fundo verde */
+    border: 5px solid #3e8e41; /* Borda escura */
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: 0 9px #999; /* Sombra do botão */
+    outline: none;
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+.mc-button:hover {
+    background-color: #45a049; /* Cor de fundo ao passar o mouse */
+}
+
+.mc-button:active {
+    background-color: #3e8e41; /* Cor de fundo ao clicar */
+    box-shadow: 0 5px #666; /* Sombra ao clicar */
+    transform: translateY(4px); /* Efeito de clique */
+}
